@@ -63,6 +63,10 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+Plugins: 
+  - hexo-renderer-jade
+  - hexo-renderer-less
+
 theme: maupassant-hexo
 
 # Deployment
