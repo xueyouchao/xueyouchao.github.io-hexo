@@ -6,13 +6,13 @@
 title: youchao's dev
 subtitle: 
 description:
-author: John Doe
+author: Youchao Xue
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://yoursite.com
+url: https://xueyouchao.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -67,6 +67,15 @@ pagination_dir: page
 Plugins: 
   - hexo-renderer-jade
   - hexo-renderer-less
+  - hexo-generator-sitemap
+  - hexo-generator-feed
+
+sitemap: 
+  path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
 
 theme: maupassant-hexo
 
@@ -76,3 +85,8 @@ deploy:
   type: git
   repo: git@github.com:xueyouchao/xueyouchao.github.io.git
   branch: master
+
+
+disqus_shortname: https-xueyouchao-github-io
+
+
