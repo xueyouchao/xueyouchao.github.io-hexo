@@ -7,7 +7,7 @@ title: youchao's dev
 subtitle: 
 description:
 author: Youchao Xue
-language:
+language: en
 timezone:
 
 # URL
@@ -69,6 +69,7 @@ Plugins:
   - hexo-renderer-less
   - hexo-generator-sitemap
   - hexo-generator-feed
+  - hexo-generator-search
 
 sitemap: 
   path: sitemap.xml
@@ -86,7 +87,5 @@ deploy:
   repo: git@github.com:xueyouchao/xueyouchao.github.io.git
   branch: master
 
-
-disqus_shortname: https-xueyouchao-github-io
 
 
