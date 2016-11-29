@@ -3,6 +3,7 @@ title: Compile Time String Hashing
 date: 2016-11-16 00:12:21
 tags: [C++11,c++14,Hashing]
 mathjax: true
+toc: true
 ---
 ## why do we need it
 String comparison is a relatively slow operation and some times not tolerable. Especially when you have many if..else.. (or switch/case) code like this:  
@@ -26,5 +27,10 @@ Cons: This solution needs to separate strings into groups.
 
 ## c++11/c++14 solutions
 In c++11/c++14, constexpr provides us a new way to the perfect solution for compile time string hashing. However different c++ compilers support the new standard differently and we still need to make sure the code is fully tested on multiple compilers.
+
+So first let's choose some popular Hash functions to start.
+
+
+
 
   
