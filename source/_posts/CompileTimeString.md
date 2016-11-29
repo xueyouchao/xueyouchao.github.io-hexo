@@ -38,22 +38,28 @@ to pre-calculate the hash value and sometimes with the help of template recursio
 
 #### Example A
 Java string's hashCode() is one of the simplest hash function which uses [Horner's method](https://en.wikipedia.org/wiki/Horner's_method):
-$$h = s[0]* 31^\left(n-1\right) + s[1]*31^\left(n-2\right) + ... + s[n-1]$$
+$$h = s[0] * 31^\left(n-1\right)+s[1] * 31^\left(n-2\right) + ... + s[n-1]$$
+
+
 It's not hard to deduce the following iterative equation:  
+
+
 $$h = h * 31 + s[n-1]$$
+
 Based on this recusive nature you can write a simple c++ function:  
+$$T(n) = \Theta(n) + \sum\_{i=0}^{n-1}{O({n}\_{i}^2)}$$
 ```
 #include <stdio.h>
 constexpr inline size_t HORNER_HASH(size_t prime, char const * str)
 {
-	return *(str+1) != NULL ? prime * HORNER_HASH(prime, str+1) + *(str) : *(str);
+	return (str+1) != NULL ? prime * HORNER_HASH(prime, str+1) + *(str) : *(str);
 }
 
 #define CompileTimeHash1(x) (HORNER_HASH(31, x))
 
 int main()
 {
-	printf("%d",CompileTimeHash1("ABCDEFG"));
+	printf("%lu",CompileTimeHash1("ABCDEFG"));
     return 1;
 }
 ```
