@@ -93,9 +93,9 @@ int main()
     	printf("if statement test success!\n");
     switch (RUNTIME_HORNER_HASH(31,currentState))
     {
-    case COMPILE_HORNER_HASH("StateA"):
-    printf("switch statement test success!\n");
-    break;
+        case COMPILE_HORNER_HASH("StateA"):
+        printf("switch statement test success!\n");
+        break;
     }
     return 1;
 }
