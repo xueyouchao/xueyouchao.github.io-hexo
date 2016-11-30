@@ -54,10 +54,16 @@ constexpr inline size_t HORNER_HASH(size_t prime, const char (&str)[N], size_t L
 	return (Len <= 1) ? str[0] : (prime * HORNER_HASH(prime, str, Len-1) + str[Len-1]);
 }
 #define CompileTimeHash1(x) (HORNER_HASH(31, x))
-```  
-If you are not familiar with syntax const ```const char (&str)[N]``` Stefan Reinalter gave an explanation [here](https://blog.molecular-matters.com/2011/06/22/subtle-differences-in-c/).Note ```N``` is deduced to be ```sizeof(str)``` which including the null terminator for c string so we have to pass ```N-1``` as the length of c string.
+```
 
-The following testing code validates if the runtime hash function generates the same result as the compile time hash function both in ```if``` and ```switch``` statements. 
+
+If you are not familiar with syntax `const char (&str)[N]` Stefan Reinalter gave an explanation [here](https://blog.molecular-matters.com/2011/06/22/subtle-differences-in-c/).
+
+Note `N` is deduced to be `sizeof(str)` which including the null terminator for c string so we have to pass `N-1` as the length of c string.
+
+The following testing code validates if the runtime hash function generates the same result as the compile time hash function both in `if` and `switch` statements. 
+
+
 ```
 #include <stdio.h>
 
