@@ -44,7 +44,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-mathjax: true
+
 
 # Category & Tag
 default_category: uncategorized
@@ -72,6 +72,7 @@ Plugins:
   - hexo-generator-sitemap
   - hexo-generator-feed
   - hexo-generator-search
+  - hexo-renderer-pandoc
 
 sitemap: 
   path: sitemap.xml
