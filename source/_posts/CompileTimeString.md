@@ -28,10 +28,10 @@ Cons: This solution needs to separate strings into groups.
 ## c++11/c++14 solutions
 In c++11/c++14, constexpr provides us a new way to the perfect solution for compile time string hashing. However different c++ compilers support the new standard differently and we still need to make sure the code is fully tested on multiple compilers.
 
-So first let's first pick up an easy Hash function to start. The trick is to utilize the c++
+So first let's first pick up an easy Hash function to start. The trick is to utilize the c++11
 
 
-* template/macro (compile time requirement) 
+* template/macro (two ways for compile time processing) 
 * constexpr syntax  
  
 to pre-calculate the hash value and sometimes with the help of template recursion in compile time.
@@ -46,20 +46,51 @@ It's not hard to deduce the following iterative equation:
 
 $$h = h * 31 + s[n-1]$$
 
-Based on this recusive nature you can write a simple c++ function:  
-$$T(n) = \Theta(n) + \sum\_{i=0}^{n-1}{O({n}\_{i}^2)}$$
+Based on this recusive nature you can write a simple recursive c++ function:  
+```
+template <size_t N>
+constexpr inline size_t HORNER_HASH(size_t prime, const char (&str)[N], size_t Len = N-1)
+{
+	return (Len <= 1) ? str[0] : (prime * HORNER_HASH(prime, str, Len-1) + str[Len-1]);
+}
+#define CompileTimeHash1(x) (HORNER_HASH(31, x))
+```  
+If you are not familiar with syntax const ```const char (&str)[N]``` Stefan Reinalter gave an explanation [here](https://blog.molecular-matters.com/2011/06/22/subtle-differences-in-c/).Note ```N``` is deduced to be ```sizeof(str)``` which including the null terminator for c string so we have to pass ```N-1``` as the length of c string.
+
+The following testing code validates if the runtime hash function generates the same result as the compile time hash function both in ```if``` and ```switch``` statements. 
 ```
 #include <stdio.h>
-constexpr inline size_t HORNER_HASH(size_t prime, char const * str)
+
+template <size_t N>
+constexpr inline size_t HORNER_HASH(size_t prime, const char (&str)[N], size_t Len = N-1)
 {
-	return (str+1) != NULL ? prime * HORNER_HASH(prime, str+1) + *(str) : *(str);
+	return (Len <= 1) ? str[0] : (prime * HORNER_HASH(prime, str, Len-1) + str[Len-1]);
 }
 
-#define CompileTimeHash1(x) (HORNER_HASH(31, x))
+#define COMPILE_HORNER_HASH(x) (HORNER_HASH(31, x))
+
+size_t RUNTIME_HORNER_HASH(size_t prime, char const* str)
+{
+    if (str == NULL) return 0;
+	size_t hash = *str;
+    for (; *(str+1)!=0; str++)
+    {
+      hash = prime * hash + *(str+1);
+    }
+    return hash;
+}
 
 int main()
 {
-	printf("%lu",CompileTimeHash1("ABCDEFG"));
+    const char* currentState = "StateA";
+    if (RUNTIME_HORNER_HASH(31,currentState) == COMPILE_HORNER_HASH("StateA"))
+    	printf("if statement test success!\n");
+    switch (RUNTIME_HORNER_HASH(31,currentState))
+    {
+    case COMPILE_HORNER_HASH("StateA"):
+    printf("switch statement test success!\n");
+    break;
+    }
     return 1;
 }
 ```
