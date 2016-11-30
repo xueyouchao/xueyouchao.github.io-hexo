@@ -14,7 +14,7 @@ else if (mode == "StateB") {
   ...  
 }
 
-The first thought come in mind is to use hash function to speed up the comparison operation; so we can improve the time complexity from O($n^2$) to O(1). How can we do better? Make the hash calculation on compile time so there will be no run-time cost and let the compiler do the job for you.
+The first thought come in mind is to use hash function to speed up the comparison operation; so we can improve the time complexity from O($n^2$) to O(1). How can we do better? Make the hash calculation on compile time so it saves some extra run-time cost for constant string hash calculation and let the compiler do the job for you.
 
 ## c++98 solutions
 Before c++11, c++98 solutions are not perfect. 
