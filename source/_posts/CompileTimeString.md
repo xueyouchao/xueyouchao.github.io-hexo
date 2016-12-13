@@ -54,6 +54,7 @@ constexpr inline size_t HORNER_HASH(size_t prime, const char (&str)[N], size_t L
 	return (Len <= 1) ? str[0] : (prime * HORNER_HASH(prime, str, Len-1) + str[Len-1]);
 }
 #define CompileTimeHash1(x) (HORNER_HASH(31, x))
+
 ```
 
 
@@ -99,8 +100,8 @@ int main()
     }
     return 1;
 }
-```
 
+```
 
 
 
