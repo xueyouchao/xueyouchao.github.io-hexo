@@ -5,12 +5,21 @@ tags: [C++11, Lock-Free]
 toc: true  
 ---
 ## What is & Why use Lock-Free Programming
-## Big Picture
-## C++11 Atomics in Action
-#### Building the Simplest SpinLock Using std::atomic_flag
-#### CAS in C++11
-C++11 provides two sets of API: OO style atomic class template & a set of C style functions. They are equivalent. The following demostrattion will based on atomic class template but you can easily convert to C style functions.  
-How is CAS implemented in C++11:
+To be added  
+
+## Big Picture  
+To be added  
+
+## C++11 Atomics in Action  
+To be added
+### Building the Simplest SpinLock Using std::atomic_flag  
+To be added
+
+### Memory Ordering
+
+
+### CAS in C++11  
+C++11 provides two sets of API: OO style atomic class template & a set of C style functions. They are equivalent. The following demostrattion will based on atomic class template but you can easily convert to C style functions.
 
 ##### [exchange](http://en.cppreference.com/w/cpp/atomic/atomic/exchange)
 ```
