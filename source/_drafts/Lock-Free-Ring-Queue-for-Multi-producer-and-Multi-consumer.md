@@ -26,9 +26,10 @@ Here is my humble opinion:
 
 # Talk is cheap, show me the code  
 Here I will present a deadly simple lock-free MPMC(multi-producer, multi-consumer) ring queue implementation in c++11. The C implementation can be found at dpdk [git](http://dpdk.org/browse/dpdk/tree/lib/librte_ring).
-Ring queue's documentation can be also found at dpdk [site](http://dpdk.org/doc/guides/prog_guide/ring_lib.html). I will brief explain it using my simplest c++ 11 code. 
+Ring queue's documentation can be also found at dpdk [site](http://dpdk.org/doc/guides/prog_guide/ring_lib.html). 
 
 In my simplest version, I have only implemented push/pop so far for an easy start; no bulk operations, no watermark notification, no dynamic size adjustments for the buffer.  
+## Class Memebers
 First let's look at ring queue class members:
 ```  
 constexpr uint64_t RING_BUFFER_SIZE = 2 << 10;
@@ -61,9 +62,10 @@ A few points to mention here:
  
 *  The prod/consumer pointers each contains first/second pointers (equivalent  to prod/consumer's head and tail in DPDK). The reason it needs first and second pointers is explained down below.
 
-* ```alignas(CACHE_LINE_SIZE)``` used here is to prevent false sharing to happen. If you don't know what is false sharing, [here](https://nativecoding.wordpress.com/2015/06/19/multithreading-multicore-programming-and-false-sharing-benchmark/) is a simple and excellent explnation. Before c++11 this is done through padding chars, but now we can use new syntax ```alignas```.
+* ```alignas(CACHE_LINE_SIZE)``` used here is to prevent false sharing to happen. If you don't know what is false sharing, [here](https://nativecoding.wordpress.com/2015/06/19/multithreading-multicore-programming-and-false-sharing-benchmark/) is a simple and excellent explanation. Before c++11 this is done through padding chars, but now we can use new syntax ```alignas```.
 
-* simple_spin_wait will be explained down below.
+* simple_spin_wait will be explained down below.  
+
 
 
 
