@@ -7,9 +7,9 @@ toc: true
 
 I have switched my programming environment to Manjaro Linux recently. So I started to give a try on legendary editor Emacs for development. I started with zero basics for Emacs and spent only 2 week's spare time to get used to writing code and blog with it.
 
-## Quick start from giants' shoulders
+## Standing on the Shoulders of Giants
 * Do not blindly start to learn Emacs commands or lisp language, learning without helping you to achieve your goal will make you give up soon. You should start from guru's setup to achieve what you want to do and learn the commands and everyting along the way.
-* I started by taking advice from Chen Bin [(git:redguardtoo)]("https://github.com/redguardtoo"). Quickly read his post ["mastering-emacs-in-one-year-guide"](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide).
+* I started by taking advice from Chen Bin [redguardtoo ](https://github.com/redguardtoo). Quickly read his post ["mastering-emacs-in-one-year-guide"](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide).
 * Followed the recommendation, I spent a little time going through the emacs tutorial. ThenI downloaded his [configuration](https://github.com/redguardtoo/emacs.d) to play around.
 * Very importantly, write down the important steps. Emacs has powerful plugin management functionality, when you made so many customizations to emacs you want to make sure to write down the steps.
 
@@ -23,7 +23,7 @@ I have switched my programming environment to Manjaro Linux recently. So I start
 ...
 
 ## Two Configurations I Recommended
-1. Chen Bin's setup [(git:redguardtoo)]("https://github.com/redguardtoo")  
+1. Chen Bin's setup [redguardtoo]("https://github.com/redguardtoo")  
 It comes with pretty much everything I need and a very clear structure inherit from Steve Purcell. The theme is very beautiful and the font colors are very comfortable for me to write programming code. Note that Chen carefully pick the stable version of ELPA packages and you need to add unstaple exceptions in his configuration file to see the package in package installation list.
 
 
@@ -33,3 +33,7 @@ A screenshot of my spacemacs workspace shows this beautiful theme.
 ![](/images/solarized-dark.png)
 ![](/images/solarized-light.png)
 
+3. I prefer Chen's setting. I felt it's faster than Spacemacs and still easy for me to plugin anything else in due to the clear structure.
+
+## Some Configuration Steps I Went Through
+[In Org Mode, best read in emacs org-indent-mode](https://github.com/xueyouchao/todo/blob/master/EmacsToDo.org)
