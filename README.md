@@ -1,6 +1,6 @@
-pre-install git & node.js
+Pre-install git & node.js
 
-Open git bash
+
 
 git clone https://github.com/xueyouchao/xueyouchao.github.io-hexo.git
 
