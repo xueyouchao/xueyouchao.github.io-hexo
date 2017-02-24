@@ -1,9 +1,12 @@
 ---
 title: Journey of Emacs
-date: 2017-02-22 00:12:21
-tags: [Emacs,Markdown]
+tags:
+  - Emacs
+  - Markdown
 toc: true
+date: 2017-02-22 00:12:21
 ---
+
 
 I have switched my programming environment to Manjaro Linux recently. So I started to give a try on legendary editor Emacs for development. I started with zero basics for Emacs and spent only 2 week's spare time to get used to writing code and blog with it.
 
@@ -33,7 +36,9 @@ A screenshot of my spacemacs workspace shows this beautiful theme.
 ![](/images/solarized-dark.png)
 ![](/images/solarized-light.png)
 
+<<<<<<< HEAD:source/_posts/Journey-of-Emacs.md
 3. I prefer Chen's setting. I felt it's faster than Spacemacs and still easy for me to plugin anything else in due to the clear structure.
 
 ## Some Configuration Steps I Went Through
 [In Org Mode, best read in emacs org-indent-mode](https://github.com/xueyouchao/todo/blob/master/EmacsToDo.org)
+=======
