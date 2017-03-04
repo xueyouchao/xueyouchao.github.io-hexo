@@ -1,5 +1,5 @@
 ---
-title: Build Chromium-Embeded-Framework-in-ArchLinux
+title: Build Chromium-Embeded-Framework-in-ManjaroLinux
 date: 2017-03-02 00:12:21
 tags: [c++]
 toc: true
@@ -16,7 +16,8 @@ I gave a try today on Awesomium, it still works but the problem I found is that 
 Another popular solution came out for a few years is CEF(chromium embeded framework). I have seen many html5 UI style desktop applicaiton which uses this framework such as [HEX](https://github.com/netease-youdao/hex).
 
 ## Building CEF on ArchLinux  
-Since my purpose is to integrate CEF into my application, I choose to use the CEF binaries directly.
+Since my purpose is to integrate CEF into my application, I choose to use the CEF binaries directly. Make sure to download the latest binaries from [here](http://opensource.spotify.com/cefbuilds/index.html). (I used cef_binary_3.2924.1575.g97389a9, an early version will give you a annoying run time error about libgcrypt11.so not found.)
+
 The building steps are cleared in the CMakelists.txt. On linux, you can choose ninja or Gnu Make to build the examples.  
 
 * Make sure to install CMake 2.8.12.1 or newer version; install ninja build tools.  
@@ -33,18 +34,11 @@ The building steps are cleared in the CMakelists.txt. On linux, you can choose n
 ![]("/images/gtkerror.png")
 
 What is going on? If you read the comments in CmakeLists.txt, ArchLinux Linux was not in the supported distribution list and there are three required packages: build-essential, libgtk2.0-dev, libgtkglext1-dev. I can't find those packages in Pacman repos, do I really need to install those? 
-Then I am checking gtk/gtk.h path by running *sudo pacman -Ql gtk2* and *pkg-config --cflags --libs gtk+-2.0*. It's in my /usr/include folder. It seems GTK2.0+- and GTK3.0+- comes with manjaro distro.(Manjaro is an Arch Linux with customized desktop.) So it seems cmake can not find the GTK path. Rgrep "gtk+-2.0" and I found this line in CEF CmakeLists.txt file:  
+Lets's check gtk/gtk.h path by running *sudo pacman -Ql gtk2* and *pkg-config --cflags --libs gtk+-2.0*. It's in my /usr/include folder. It seems GTK2.0+- and GTK3.0+- comes with manjaro distro.(Manjaro is an Arch Linux with customized desktop.) So it seems cmake can not find the GTK path. Rgrep "gtk+-2.0" and I found this line in CEF CmakeLists.txt file:  
 
 ``` FIND_LINUX_LIBRARIES("gmodule-2.0 gtk+-2.0 gthread-2.0 gtk+-unix-print-2.0 gtkglext-1.0") ```  
 
-This macro is defined in cef_macros.cmake:142 to reading pkg-config into cmake
-```
-  macro(FIND_LINUX_LIBRARIES libraries)
-  # Read pkg-config info into variables.
-  execute_process(COMMAND pkg-config --cflags ${libraries} OUTPUT_VARIABLE FLL_CFLAGS)
-  ...
-```
-I try to change one line in CMakeLists.txt into three five lines, passing libraries' names one by one.
+This macro is defined in cef_macros.cmake:142 for reading pkg-config into cmake. Change this one line in CMakeLists.txt into multiple lines, passing libraries' names one by one.
 ```
   FIND_LINUX_LIBRARIES("gmodule-2.0")
   FIND_LINUX_LIBRARIES("gtk+-2.0")
@@ -52,18 +46,16 @@ I try to change one line in CMakeLists.txt into three five lines, passing librar
   FIND_LINUX_LIBRARIES("gtk+-unix-print-2.0")
   FIND_LINUX_LIBRARIES("gtkglext-1.0")
 ```
-Compile it again, complain about <gtk/gtkgl.h> not found, ```sudo pacman -S gtkglext```
-Done. So during the compiling step the only package you need to install in ArchLinux is gtkglext.
+Compile it again, get error <gtk/gtkgl.h> not found. ```sudo pacman -S gtkglext```
+Done. So during the compiling step the only package you need to install in Manjaro Linux is gtkglext.  
+
 * Run the command following the build instruction.
-EXE="/path/to/cef_binary_3.2785.1440.g1ee311f_linux64/build/cefclient/Debug/chrome-sandbox" && sudo -- chown root:root $EXE && sudo -- chmod 7455 $EXE
+EXE="/path/to/cef_binary/build/cefclient/Debug/chrome-sandbox" && sudo -- chown root:root $EXE && sudo -- chmod 7455 $EXE
 cd /path/to/cefclient
 ./cefclient
-Error again: error while loading shared libraries: libgcrypt.so.11: cannot open shared object file.
-Even though I have new version of libgcrypt installed in the system for this issue we need a specific version. See [here](https://bitbucket.org/chromiumembedded/cef/issues/1907/branch-2704-fails-build-on-ubuntu-1604).
-So I download the debian version of libgcrypt11 from [here](https://packages.debian.org/wheezy/amd64/libgcrypt11/download).
-To install it on ArchLinux, I have to install dpkg first.  
-sudo pacman -S dpkg  
-sudo dpkg -i libgcrypt11_1.5.0-5+deb7u5_amd64.deb
+You will see a simple chrome embeded desktop application runs:  
+![]("./images/cef.png")
+
 
 
 
