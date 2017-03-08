@@ -45,27 +45,33 @@ Aug 2005 ~ Nov 2006      **Software Engineer at Huawei Technologies Co. Ltd., Sh
 ### Education 
 
 ----------------------   ---------------------------------------------------------------------
-July 2007 ~ May 2009     **University of Abertay Dundee,UK - MSc Degree with Distinction in Computer Games Technology**  
+July 2007 ~ May 2009     **University of Abertay Dundee,UK** - MSc Degree with Distinction in Computer Games Technology  
 
 
-Sep 2001 ~ July 2005     **Nanjing University of Aeronautics and Astronautics, Bachelor Degree in Information and Computational Science specialized subject**  
+Sep 2001 ~ July 2005     **Nanjing University of Aeronautics and Astronautics** - Bachelor Degree in Information and Computational Science specialized subject  
 ----------------------------------------------------------------------------------------------
 
-Technical Skills
---------------------
+### Technical Skills
+**C/C++98 && C++11**   
+    Deep understanding of C/C++ language including object oriented design,
+    c++ tempate programming and template metaprogramming, multithreading programming,
+    c++11 new memory model for concurrency programming and lock-free programming.
 
-Programming Languages
-:   **c/c++98 && c++11:** 
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+**Java**
+    Performed code review for several top 500 corporation Java Server side projects. Focus on web security domain.
+Understanding Java concurrency model
+    
+**Developing Environment**
+    Emacs in Linux (Use Emacs as a professional IDE) and expert of Visual Studio + Visual Assist X on Windows
+    Current write project using [Fips](http://floooh.github.io/fips/getstarted.html)(cmake's python binding)
+    or GENie(https://github.com/bkaradzic/GENie)(Lua based premake) as a result one c++ 
+    code base can build cross compilers and run on all platforms including Windows, Linux, OSX, iOS, Android,
+    asm.js/Emscripten(superior web browser solution), PNaCl.
+    
+**Library Used**
+    Strong ability of using STL, BOOST library, two years of experience of Qt, experience
+    of Ogre3D c++ engine, Nvidia Physx Engine and many more.
+    
 
 My Cool Side Project
 
