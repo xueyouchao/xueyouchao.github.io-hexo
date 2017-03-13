@@ -1,5 +1,5 @@
 ---
-Title: Build Chromium-Embeded-Framework-in-Manjaro-Linux
+title: Build Chromium-Embeded-Framework-in-Manjaro-Linux
 date: 2017-03-02 00:12:21
 tags: [c++]
 toc: true
