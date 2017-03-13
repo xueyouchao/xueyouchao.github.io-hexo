@@ -49,13 +49,14 @@ This macro is defined in cef_macros.cmake:142 for reading pkg-config into cmake.
   FIND_LINUX_LIBRARIES("gtk+-unix-print-2.0")
   FIND_LINUX_LIBRARIES("gtkglext-1.0")
 ```
-Compile it again, get error <gtk/gtkgl.h> not found. ```sudo pacman -S gtkglext```
+Compile it again, get error gtk/gtkgl.h not found. ```sudo pacman -S gtkglext```
 Done. So during the compiling step the only package you need to install in Manjaro Linux is gtkglext.  
 
-* Run the command following the build instruction.
+* Run the following command after the compiling finished  
+
 EXE="/path/to/cef_binary/build/cefclient/Debug/chrome-sandbox" && sudo -- chown root:root $EXE && sudo -- chmod 7455 $EXE
-cd /path/to/cefclient
-./cefclient
+cd /path/to/cefclient  
+./cefclient  
 You will see a simple chrome embeded desktop application runs:  
 ![](/images/cef.png)
 
