@@ -80,7 +80,7 @@ Sep 2001 ~ July 2005     **Nanjing University of Aeronautics and Astronautics,Ch
 **Developing Environment**  
     Emacs on Manjaro Linux and Visual Studio + Visual Assist X on Windows
     Current write c++ project using [Fips](http://floooh.github.io/fips/getstarted.html)(cmake's python binding)
-    or GENie(https://github.com/bkaradzic/GENie)(Lua based premake), the tool helps to generate and compiles c++ 
+    or [GENie](https://github.com/bkaradzic/GENie)(Lua based premake), the tool helps to generate and compiles c++ 
     code base cross multiple compilers and cross different OS platforms including Windows, Linux, OSX, iOS, Android,
     asm.js/Emscripten(superior web browser solution), PNaCl etc. Familiar with various version control including
     github, magit(github in emacs),bitbucket, Tortoise SVN, Microsoft Team Foundation Server etc.
@@ -117,7 +117,7 @@ A techinical blog built with Markdown, Hexo on Github pages.
 CISSP (Certified Information Systems Security Professional)  
 
 -----------------------------------------------------------------------------------------------------
-### Resumes for download  
+### Resume for download  
 [PDF version](https://xueyouchao.github.io/about/resume.pdf)  
 [Word version](https://xueyouchao.github.io/about/resume.docx)  
 [HTML version](https://xueyouchao.github.io/about/resume.html)  
