@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="youchao-xue">Youchao Xue</h1>
+<hr />
+<h3 id="personal-info">PERSONAL INFO</h3>
+<table>
+<colgroup>
+<col width="44%" />
+<col width="55%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">DATE OF BIRTH: 14 Oct 1982</td>
+<td align="right">PHONE: 781-332-2822</td>
+</tr>
+<tr class="even">
+<td align="left">Home ADDRESS: 5 Junction Rd, North Reading , MA</td>
+<td align="right">EMAIL: xueyouchao@gmail.com</td>
+</tr>
+<tr class="odd">
+<td align="left">Residency Status: greencard holder</td>
+<td align="right">Blog: <a href="https://xueyouchao.github.io" class="uri">https://xueyouchao.github.io</a></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"><a href="http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html" class="uri">http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="work-experience">WORK EXPERIENCE</h3>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="73%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">Apr 2012 ~ Current</td>
+<td align="left"><strong>Senior Security Analyst &amp; Project Manager at Primeon Inc. Boston</strong></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">Performing security code review and vulnerability assessment for top 500 corporation’s web and mobile application security project; developing in house security analysis tool; leading small team of security analyst to provide</td>
+</tr>
+<tr class="odd">
+<td align="left">July 2009 ~ Apr 2012</td>
+<td align="left"><strong>3D Graphics Developer at Weatherford International, Inverness Team, UK</strong></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">Developping and maintaining the 3D module of flagship software 5D, a directional well planning and survey system uses 3D visualization for collision avoidance. <strong>Other key contributions:</strong> In the project of drilling relief well for Gulf of Mexico accident, I developed a small 3D application to feed real time drilling data into 3D visualization viewer and provide a quaternion based free roaming camera control, used by our senior consultant Angus Jamieson and Houston Team to complete one of the most challenging task in directional drilling area.</td>
+</tr>
+<tr class="odd">
+<td align="left">Aug 2005 ~ Nov 2006</td>
+<td align="left"><strong>Software Engineer at Huawei Technologies Co. Ltd., ShenZhen, P.R. China</strong></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">Joined several telecommunication projects, went through the full life cycle of software development, including project planning, requirements analysis, design, coding, debugging, unit testing, system integration testing and release.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="education">Education</h3>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="73%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">July 2007 ~ May 2009</td>
+<td><strong>University of Abertay Dundee,UK</strong> - MSc Degree with Distinction in Computer Games Technology</td>
+</tr>
+<tr class="even">
+<td align="left">Sep 2001 ~ July 2005</td>
+<td><strong>Nanjing University of Aeronautics and Astronautics</strong> - Bachelor Degree in Information and Computational Science specialized subject</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technical-skills">Technical Skills</h3>
+<p><strong>C/C++98 &amp;&amp; C++11</strong><br />
+Deep understanding of C/C++ language including object oriented design, c++ tempate programming, template metaprogramming, multithreading programming, c++11 new memory model for concurrency programming and lock-free programming.</p>
+<p><strong>Java &amp; Objective C</strong><br />
+Performed Java source code review for several top 500 corporation Java server side projects as well as Android mobile client side code, iOS mobile client side code (or hybrid client using webview such as Cordova). Focus on web/mobile security domain, familiar with major J2EE framework such as Struts2, Spring framework and low level library LMax Disruptor.</p>
+<p><strong>C# &amp; .net language</strong> Strong skill on c# programming with experience on developing several c# based projects with P/Invoke native funcations.Familiar with c# async programming and multithreading programming. Experience on developing projects using c++/cli mixed with native c++ to bring .net UI to native c++ code.</p>
+<p><strong>Other languages</strong><br />
+Strong interest on concurrency programming; although my main focus is on c++11 concurrency programming, I also developed security analysis tool using Golang based on its CSP model. Knowledge of different concurrency approaches including SIMD, multithreading,functional programming, Actor, CSP, GPGPU etc.</p>
+<p><strong>Developing Environment</strong> Emacs in Linux() and Visual Studio + Visual Assist X on Windows Current write c++ project using <a href="http://floooh.github.io/fips/getstarted.html">Fips</a>(cmake’s python binding) or GENie(https://github.com/bkaradzic/GENie)(Lua based premake), the tool helps to generate and compiles c++ code base cross multiple compilers and for different OS platforms including Windows, Linux, OSX, iOS, Android, asm.js/Emscripten(superior web browser solution), PNaCl etc. Familiar with various version control including github, magit(github in emacs),bitbucket, Tortoise SVN, Microsoft Team Foundation Server etc.</p>
+<p><strong>Library Used</strong> Strong ability of using STL, BOOST library, two years work experience of Qt, experience of Ogre3D c++ engine, Nvidia Physx Engine, BGFX, ImGUI, Raknet, NDK and many more.</p>
+<h3 id="personal-side-projects">Personal Side Projects</h3>
+<p><a href="http://youchaosdevelopment.blogspot.com/2009/02/world-of-champloo.html"><strong>3D c++ game: World of Champloo</strong></a><br />
+Our team with 2 programmers and 3 artists developed this game with split screen version(using XBOX controller) and networking version in less than 2 months in 2008 using OGRE3D for 3D rendering engine, Physx for Physics engine, OpenAL for game audio, CEGUI for ingame GUI, Raknet for UDP networking communication.</p>
+<p><a href="http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html"><strong>3D game editor for OGRE3D Engine with .net</strong></a><br />
+My personal side project including the following features: Visual studio style dockable .net window for rendering multiple 3D scene, editor layout load/save from/to xml files 3D scene, model animations serialization/deserialization to/from XML files All the properties can be configured through unified .net property grid etc.</p>
+<p><a href="https://xueyouchao.github.io/2017/02/26/Lock-Free-Ring-Queue-for-Multi-producer-and-Multi-consumer/"><strong>Lock Free Ring Queue for Multi-producer, Multi-consumer in c++11</strong></a><br />
+Demostration of using c++11 to implement high efficient datastructure for lock-free programming.</p>
+<p><a href="https://xueyouchao.github.io/"><strong>Personal Technical Blog on Github</strong></a><br />
+A techincal blog built with Markdown, Hexo, and Github pages.</p>
+<h3 id="certification">Certification</h3>
+<p>I am currently an active member of CISSP (Certified Information Systems Security Professional).</p>
+</body>
+</html>
