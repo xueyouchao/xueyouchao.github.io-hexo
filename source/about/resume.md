@@ -120,7 +120,7 @@ CISSP (Certified Information Systems Security Professional)
 ### Resumes for download  
 [PDF version](https://xueyouchao.github.io/about/resume.pdf)  
 [Word version](https://xueyouchao.github.io/about/resume.docx)  
-[HTML version](https://xueyouchao.github.io/about/resume.html))
+[HTML version](https://xueyouchao.github.io/about/resume.html))  
 [RTF version](https://xueyouchao.github.io/about/resume.rtf)  
 
 
