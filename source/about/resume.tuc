@@ -19,7 +19,7 @@ if not utilitydata.job.variables then utilitydata.job.variables = { } end
 
 utilitydata.job.variables.collected={
  ["macros"]={},
- ["randomseed"]=0.14096034045376,
+ ["randomseed"]=0.84768400101349,
  ["sectionblockorder"]={},
 }
 
@@ -54,7 +54,7 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
 
 utilitydata.job.pagestates.collected={
- ["float"]={ 1, 1, 1 },
+ ["float"]={ 1 },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -101,7 +101,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["realpage"]={
-  { 3 },
+  { 2 },
  },
  ["subpage"]={
   { 0 },
@@ -110,7 +110,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["userpage"]={
-  { 3 },
+  { 2 },
  },
 }
 
@@ -138,14 +138,14 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=6,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=2,
+   ["internal"]=3,
    ["realpage"]=1,
-   ["reference"]="personal-info",
+   ["reference"]="technical-skills",
    ["section"]=2,
   },
   ["titledata"]={
    ["label"]="subsubsection",
-   ["title"]="PERSONAL INFO",
+   ["title"]="Technical Skills",
   },
  },
  {
@@ -160,7 +160,7 @@ utilitydata.structures.lists.collected={
   },
   ["titledata"]={
    ["label"]="subsubsection",
-   ["title"]="WORK EXPERIENCE",
+   ["title"]="Work Experience",
   },
  },
  {
@@ -169,13 +169,13 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=5,
-   ["realpage"]=1,
-   ["reference"]="education",
+   ["realpage"]=2,
+   ["reference"]="personal-side-projects",
    ["section"]=4,
   },
   ["titledata"]={
    ["label"]="subsubsection",
-   ["title"]="Education",
+   ["title"]="Personal Side Projects",
   },
  },
  {
@@ -185,57 +185,12 @@ utilitydata.structures.lists.collected={
    ["block"]="bodypart",
    ["internal"]=6,
    ["realpage"]=2,
-   ["reference"]="technical-skills",
+   ["reference"]="education",
    ["section"]=5,
   },
   ["titledata"]={
    ["label"]="subsubsection",
-   ["title"]="Technical Skills",
-  },
- },
- {
-  ["metadata"]=4,
-  ["numberdata"]=14,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=7,
-   ["realpage"]=2,
-   ["reference"]="personal-side-projects",
-   ["section"]=6,
-  },
-  ["titledata"]={
-   ["label"]="subsubsection",
-   ["title"]="Personal Side Projects",
-  },
- },
- {
-  ["metadata"]=4,
-  ["numberdata"]=16,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=8,
-   ["realpage"]=3,
-   ["reference"]="certifications",
-   ["section"]=7,
-  },
-  ["titledata"]={
-   ["label"]="subsubsection",
-   ["title"]="Certifications",
-  },
- },
- {
-  ["metadata"]=4,
-  ["numberdata"]=18,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=9,
-   ["realpage"]=3,
-   ["reference"]="resumes-for-download",
-   ["section"]=8,
-  },
-  ["titledata"]={
-   ["label"]="subsubsection",
-   ["title"]="Resumes for download",
+   ["title"]="Education",
   },
  },
 }
@@ -247,22 +202,15 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="bodypart",
   ["number"]=1,
-  ["numberdata"]=19,
-  ["prefixdata"]=20,
+  ["numberdata"]=13,
+  ["prefixdata"]=14,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=2,
-  ["numberdata"]=19,
-  ["prefixdata"]=20,
-  ["state"]="start",
- },
- {
-  ["block"]="bodypart",
-  ["number"]=3,
-  ["numberdata"]=19,
-  ["prefixdata"]=20,
+  ["numberdata"]=13,
+  ["prefixdata"]=14,
   ["state"]="start",
  },
 }
@@ -279,7 +227,6 @@ if not utilitydata.structures.references then utilitydata.structures.references 
 utilitydata.structures.references.referred={
  { 1, 1 },
  { 2, 3 },
- { 3, 6 },
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -388,36 +335,6 @@ utilitydata.job.packed={
    ["hidenumber"]=true,
    ["language"]="en",
    ["numbers"]=11,
-   ["separatorset"]="default",
-   ["set"]="all",
-  },
-  { 0, 0, 1, 0, 5 },
-  {
-   ["block"]="bodypart",
-   ["conversionset"]="default",
-   ["hidenumber"]=true,
-   ["language"]="en",
-   ["numbers"]=13,
-   ["separatorset"]="default",
-   ["set"]="all",
-  },
-  { 0, 0, 1, 0, 6 },
-  {
-   ["block"]="bodypart",
-   ["conversionset"]="default",
-   ["hidenumber"]=true,
-   ["language"]="en",
-   ["numbers"]=15,
-   ["separatorset"]="default",
-   ["set"]="all",
-  },
-  { 0, 0, 1, 0, 7 },
-  {
-   ["block"]="bodypart",
-   ["conversionset"]="default",
-   ["hidenumber"]=true,
-   ["language"]="en",
-   ["numbers"]=17,
    ["separatorset"]="default",
    ["set"]="all",
   },
