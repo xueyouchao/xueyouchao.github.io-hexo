@@ -48,6 +48,7 @@ and Houston Team to complete one of the most challenging task in directional dri
 
 
 ### Personal Side Projects  
+=======
 
 Technical Blog: [https://xueyouchao.github.io](https://xueyouchao.github.io)  
 Projects Demos: [http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html](http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html)  
@@ -75,7 +76,6 @@ A techinical blog built with Markdown, Hexo on Github pages.
 
 **University of Abertay Dundee,UK**&nbsp;&nbsp;&nbsp;&nbsp;*July 2007 ~ May 2009*  
 MSc Degree with Distinction in Computer Games Technology
-
 
 **Nanjing University of Aeronautics and Astronautics,China**&nbsp;&nbsp;&nbsp;&nbsp;*Sep 2001 ~ July 2005*  
 Bachelor Degree in Information and Computational Science specialized subject
