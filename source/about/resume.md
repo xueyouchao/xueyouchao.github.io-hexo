@@ -53,9 +53,9 @@ Technical Blog: [https://xueyouchao.github.io](https://xueyouchao.github.io)
 Projects Demos: [http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html](http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html)  
 
 [**3D C++ Game: World of Champloo**](http://youchaosdevelopment.blogspot.com/2009/02/world-of-champloo.html)  
-Our team with 2 programmers and 3 artists developed this game with split screen version(using XBOX controller) and networking
+Our team with 2 programmers and 3 artists developed this game for Dare to be Digital competition exibited in Edinburgh International Conference Center. We completed the game with split screen version(using XBOX controller) and networking
 version in less than 2 months in 2008 using OGRE3D for 3D rendering engine, Physx for Physics engine, OpenAL for game audio, CEGUI 
-for ingame GUI, Raknet for UDP networking communication.
+for ingame GUI, Raknet for UDP networking communication. 
 
 
 [**3D Game Editor for OGRE3D Engine with .net**](http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html)  
