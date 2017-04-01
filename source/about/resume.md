@@ -48,7 +48,6 @@ and Houston Team to complete one of the most challenging task in directional dri
 
 
 ### Personal Side Projects  
-=======
 
 Technical Blog: [https://xueyouchao.github.io](https://xueyouchao.github.io)  
 Projects Demos: [http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html](http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html)  
