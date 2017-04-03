@@ -13,7 +13,7 @@ I gave a try today on Awesomium, it still works but the problem I found is that 
 
 * In visual studio , drag and drop a .net webview UI component on your c# project and you have it. But who wants a webview with IE core?  
 
-* Integrate one of the major browser core into your desktop application. (Firefox Gecko, Chromium Blink, Safari Webkit or IE Trident etc.) Among those using Google Chromium based browser became a very popular solution. You can find successful example such as [Crosswalk](https://crosswalk-project.org/documentation/about/demos.html) which not only brings the chromium browser/webview to desktop but also mobile platform.
+* Integrate one of the major browser core into your desktop application. (Firefox Gecko, Chromium Blink, Safari Webkit or IE Trident etc.) Among those using Google Chromium based browser became a very popular solution. You can find successful example such as [Crosswalk](https://crosswalk-project.org/documentation/about/demos.html) which not only brings the chromium browser/webview to desktop but also mobile platform. Other famous ones include Electron and NW.js which did great job to bring Chromium to desktop.
 Another popular solution came out for a few years is CEF(chromium embeded framework). I have seen many html5 UI style desktop applicaiton which uses this framework such as [HEX](https://github.com/netease-youdao/hex).
 
 ### Building CEF on Manjaro Linux  
