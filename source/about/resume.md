@@ -28,8 +28,8 @@ code. Familiar with c# async and multithreading programming.
 ### Work Experience  
 
 **Senior Software Engineer and Consultant at Primeon Inc., Boston**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ Current*  
-* Performing code review, vulnerability assessment for several top 500 corporations' major framework and server side code as well as Android and iOS mobile client side code (or hybrid client using webview such as Cordova).
-* Architectural consultancy experience on Federation Single Signon, SOA and Micro-service architecture, RESTful service API design.
+* Performing code review, vulnerability assessment for several top 500 corporations' major framework and server side code as well as Android and iOS mobile client side code (or hybrid client using webview such as Cordova).  
+* Architectural consultancy experience on Federation Single Signon, SOA and Micro-service architecture, RESTful service API design.  
 * Developing in-house tool chain used by team for daily jobs.
 
 **3D Graphics Developer at Weatherford International, UK**&nbsp;&nbsp;&nbsp;&nbsp;*July 2009 ~ Apr 2012*  
@@ -63,9 +63,9 @@ for in game GUI, Raknet for UDP networking communication.
 
 [**3D Editor for OGRE3D Engine with .net**](http://youchaosdevelopment.blogspot.com/2009/03/few-videos-show-my-editor.html)  
 My personal side project including the following features:  
-Visual studio style dockable .net window for rendering multiple 3D scene, editor layout load/save from/to xml files  
-3D scene, model animations serialization/deserialization to/from XML files  
-All the properties can be configured through unified .net property grid etc.  
+* Visual studio style dockable .net window for rendering multiple 3D scene, editor layout load/save from/to xml files  
+* 3D scene, model animations serialization/deserialization to/from XML files  
+* All the properties can be configured through unified .net property grid etc.  
 
 
 ### Education 
