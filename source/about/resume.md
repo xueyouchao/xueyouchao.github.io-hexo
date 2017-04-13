@@ -36,8 +36,8 @@ code. Familiar with c# async and multithreading programming.
 * Developing and maintaining the 3D module of flagship software 5D, a directional well planning and survey system that uses 3D visualization for
 collision avoidance. Refactoring large code base and adding many new features including multi-3D Opengl scene rendering into multiple Qt viewers; free roaming camera control, 3D Ray picking for interactive operation on 3D viewer.
 
-*Other key contributions:* In the project of drilling relief well for Gulf of Mexico accident, I developed a small 3D application to feed real 
-time drilling data into 3D visualization viewer and provide a quaternion based free roaming camera control, used by our senior consultant Angus Jamieson
+*Other key contributions:* In the project of drilling relief well for Gulf of Mexico accident, developed a small 3D application to feed real 
+time drilling data into 3D visualization viewer and provided quaternion based free roaming camera control, used by our senior consultant Angus Jamieson
 and Houston Team to complete one of the most challenging task in directional drilling area.  
                          
 **Software Engineer at Huawei Technologies Co. Ltd., P.R. China**&nbsp;&nbsp;&nbsp;&nbsp;*Aug 2005 ~ Nov 2006*  
@@ -56,7 +56,7 @@ Demonstration of using C++11 to implement high efficient data structure for lock
 A technical blog built with Markdown, Hexo on Github pages.  
 
 [**3D C++ Networking Game**](http://youchaosdevelopment.blogspot.com/2009/02/world-of-champloo.html)  
-Our team with 2 programmers and 3 artists developed this game for Dare to be Digital competition exibited in Edinburgh International Conference Center. We completed the game with split screen version(using XBOX controller) and networking
+Our team with 2 programmers and 3 artists developed this game for Dare to be Digital competition exibited in Edinburgh International Conference Center,completed the game with split screen version(using XBOX controller) and networking
 version in less than 2 months in 2008 using OGRE3D for 3D rendering engine, Physx for Physics engine, OpenAL for game audio, CEGUI 
 for in game GUI, Raknet for UDP networking communication. 
 
