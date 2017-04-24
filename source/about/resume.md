@@ -21,7 +21,7 @@ code. Familiar with c# async and multithreading programming.
     
 **Developing Environment & Building Tools**  
     * Emacs on Manjaro Linux, Visual Studio + Visual Assist X on Windows  
-    * Using cmake,[Fips](http://floooh.github.io/fips/getstarted.html),[GENie](https://github.com/bkaradzic/GENie) to generate and compiles c++ projects cross compilers and different OS platforms including Windows, Linux, OSX, iOS, Android,asm.js/Emscripten(superior web browser solution), PNaCl etc.  
+    * Using cmake,[Fips](http://floooh.github.io/fips/getstarted.html),[GENie](https://github.com/bkaradzic/GENie) to generate and compile c++ projects cross compilers and different OS platforms including Windows, Linux, OSX, iOS, Android,asm.js/Emscripten(superior web browser solution), PNaCl etc.  
     
 **Certification** - CISSP (Certified Information Systems Security Professional)  
 
