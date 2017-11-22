@@ -12,25 +12,33 @@ PHONE: 781-332-2822  EMAIL: xueyouchao@gmail.com  Work Authorization: Greencard 
     advanced knowledge of c++11 multithreading, concurrency and lock-free programming.
     Fluent skill of using STL, BOOST, Qt library and many more. 
 
+**Golang** - Strong skill on golang programming with deep understanding of its CSP concurrency model.Experience on developing large scale distributed micro services using Golang. 
+
 **C# & .net language** - Strong skill on c# and .net programming, fluent skill of using P/Invoke (or c++/cli) mixing with c++ native
 code. Familiar with c# async and multithreading programming.
 
 **Java** - Familiar with popular frameworks including Struts2, Spring; knowledge of advanced Java concurrency technology and low level multi-threading messaging library LMax Disruptor.
 
-**Others** - Strong knowledge on design pattern and UI programming; expert knowledge and experience on MVC architecture for web/desktop/mobile application. Knowledge and experience on Go language and its CSP model. Knowledge of different concurrency approaches including SIMD, multithreading,functional programming, Actor, CSP, GPGPU etc. 
+**Others** - Strong knowledge on design pattern and UI programming; expert knowledge and experience on MVC architecture for web/desktop/mobile application. Knowledge of different concurrency models including SIMD, multithreading,functional programming, Actor, CSP, GPGPU etc. 
     
 **Developing Environment & Building Tools**  
-    * Emacs on Manjaro Linux, Visual Studio + Visual Assist X on Windows  
+    * Emacs on Linux, Mac, Visual Studio + Visual Assist X on Windows  
     * Using cmake,[Fips](http://floooh.github.io/fips/getstarted.html),[GENie](https://github.com/bkaradzic/GENie) to generate and compile c++ projects cross compilers and different OS platforms including Windows, Linux, OSX, iOS, Android,asm.js/Emscripten(superior web browser solution), PNaCl etc.  
+    * Emacs, Spacemacs,Vim running in Docker container with X11 GUI
     
 **Certification** - CISSP (Certified Information Systems Security Professional)  
 
-### Work Experience  
 
-**Senior Software Engineer and Consultant at Primeon Inc., Boston**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ Current*  
+### Work Experience  
+**Senior Golang Developer at Veriozn LTE Inovation Center, Waltham, MA** &nbsp;&nbsp;&nbsp;*July 2017 ~ Current*  
+* Developing large scale Internet of Thing micro services with cutting edge technology stacks.  
+* Golang based RESTful high throughput backend micro services development  
+* Nginx/Kafka/elastic/Cassandra/Redis/Mesos  
+
+**Senior Software Engineer and Consultant at Primeon Inc., Boston**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ July 2017*  
 * Performing code review, vulnerability assessment for several top 500 corporations' major framework and server side code as well as Android and iOS mobile client side code (or hybrid client using webview such as Cordova).  
 * Architectural consultancy experience on Federation Single Signon, SOA and Micro-service architecture, RESTful service API design.  
-* Developing in-house tool chain used by team for daily jobs.
+* Developing in-house tool chain used by team for daily jobs.  
 
 **3D Graphics Developer at Weatherford International, UK**&nbsp;&nbsp;&nbsp;&nbsp;*July 2009 ~ Apr 2012*  
 * Developing and maintaining the 3D module of flagship software 5D, a directional well planning and survey system that uses 3D visualization for
