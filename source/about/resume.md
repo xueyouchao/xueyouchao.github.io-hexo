@@ -33,7 +33,7 @@ code. Familiar with c# async and multithreading programming.
 **Senior Golang Developer at Veriozn LTE Inovation Center, Waltham, MA** &nbsp;&nbsp;&nbsp;*July 2017 ~ Current*  
 * Developing large scale Internet of Thing micro services with cutting edge technology stacks.  
 * Golang based RESTful high throughput backend micro services development  
-* Nginx/Kafka/elastic/Cassandra/Redis/Mesos  
+* Docker/Mesos/Kubernate/Nginx/Kafka/ActiveMQ/Apache Camel/Elastic Search/Cassandra/Redis/Splunk
 
 **Senior Software Engineer and Consultant at Primeon Inc., Boston**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ July 2017*  
 * Performing code review, vulnerability assessment for several top 500 corporations' major framework and server side code as well as Android and iOS mobile client side code (or hybrid client using webview such as Cordova).  
