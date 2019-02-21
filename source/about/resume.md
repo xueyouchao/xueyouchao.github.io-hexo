@@ -17,7 +17,7 @@ PHONE: 781-332-2822  EMAIL: xueyouchao@gmail.com  Work Authorization: Greencard 
 **C# & .net language** - Strong skill on c# and .net programming, fluent skill of using P/Invoke (or c++/cli) mixing with c++ native
 code. Familiar with c# async and multithreading programming.
 
-**Java** - Familiar with popular frameworks including Struts2, Spring; knowledge of advanced Java concurrency technology and low level multi-threading messaging library LMax Disruptor.
+**Java** - Familiar with popular frameworks including Struts2, Spring; knowledge of advanced Java concurrency technology, Spring Reactive programming using Webflux, low level multi-threading messaging library LMax Disruptor.
 
 **Others** - Strong knowledge on design pattern and UI programming; expert knowledge and experience on MVC architecture for web/desktop/mobile application. Knowledge of different concurrency models including SIMD, multithreading,functional programming, Actor, CSP, GPGPU etc. 
     
@@ -30,10 +30,10 @@ code. Familiar with c# async and multithreading programming.
 
 
 ### Work Experience  
-**Senior Golang Developer at Veriozn LTE Inovation Center, Waltham, MA** &nbsp;&nbsp;&nbsp;*July 2017 ~ Current*  
+**Senior Software Developer at Verizon LTE Inovation Center, Waltham, MA** &nbsp;&nbsp;&nbsp;*July 2017 ~ Current*  
 * Developing large scale Internet of Thing micro services with cutting edge technology stacks.  
-* Golang based RESTful high throughput backend micro services development  
-* Docker/Mesos/Kubernate/Nginx/Kafka/ActiveMQ/Apache Camel/Elastic Search/Cassandra/Redis/Splunk
+* Golang && JAVA based RESTful high throughput backend micro services development  
+* Docker/Mesos/Kubernate/Nginx/Kafka/ActiveMQ/RabbitMQ/Apache Camel/Elastic Search/Cassandra/Redis/Splunk/Spring WebFlux/Spring Cloud Gateway
 
 **Senior Software Engineer and Consultant at Primeon Inc., Boston**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ July 2017*  
 * Performing code review, vulnerability assessment for several top 500 corporations' major framework and server side code as well as Android and iOS mobile client side code (or hybrid client using webview such as Cordova).  
