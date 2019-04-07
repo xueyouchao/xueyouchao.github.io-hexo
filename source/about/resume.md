@@ -31,8 +31,8 @@ code. Familiar with c# async and multithreading programming.
 
 ### Work Experience  
 **Senior Software Developer at Verizon LTE Inovation Center, Waltham, MA** &nbsp;&nbsp;&nbsp;*July 2017 ~ Current*  
-* Developing large scale Internet of Thing micro services with cutting edge technology stacks.  
-* Golang && JAVA based RESTful high throughput backend micro services development  
+* Design and develop large scale Internet of Thing high throughput backend micro services using Golang && JAVA with cutting edge technology stacks  
+* Design and develop mobile edge computing solution which implements protocol exchanging, message routing, complex event processing and bi-directional streaming to the cloud  
 * Docker/Mesos/Kubernate/Nginx/Kafka/ActiveMQ/RabbitMQ/Apache Camel/Elastic Search/Cassandra/Redis/Splunk/Spring WebFlux/Spring Cloud Gateway
 
 **Senior Software Engineer and Consultant at Primeon Inc., Boston**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ July 2017*  
