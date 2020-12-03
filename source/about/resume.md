@@ -7,50 +7,47 @@ PHONE: 781-332-2822  EMAIL: xueyouchao@gmail.com  Work Authorization: Greencard 
 --------------------------------------------------------------------------------------
 
 ### Technical Skills
+**Java** - Strong skill and working experience of developing cloud based microservices using popular frameworks including Spring, Spring Webflux, Micronaut, hibernate, JWT, Jackson, Mockito etc. Knowledge of Quarkus, LMax Disruptor.
+
+**Golang** - Strong skill and working experience of using golang developing large scale distributed services, deep understanding of CSP concurrency model 
+
 **C/C++98 && C++11** - Strong experience and knowledge of C/C++ including object oriented design,
     c++ template programming, template meta-programming, multithreading programming,
     advanced knowledge of c++11 multithreading, concurrency and lock-free programming.
     Fluent skill of using STL, BOOST, Qt library and many more. 
 
-**Golang** - Strong skill on golang programming with deep understanding of its CSP concurrency model.Experience on developing large scale distributed micro services using Golang. 
-
 **C# & .net language** - Strong skill on c# and .net programming, fluent skill of using P/Invoke (or c++/cli) mixing with c++ native
 code. Familiar with c# async and multithreading programming.
 
-**Java** - Familiar with popular frameworks including Struts2, Spring; knowledge of advanced Java concurrency technology, Spring Reactive programming using Webflux, low level multi-threading messaging library LMax Disruptor.
+**Cloud** - Strong skill and working experience on docker, kubernetes, aws cloud, istio service mesh, CI/CD framework including jenkins, spinnaker.
 
-**Others** - Strong knowledge on design pattern and UI programming; expert knowledge and experience on MVC architecture for web/desktop/mobile application. Knowledge of different concurrency models including SIMD, multithreading,functional programming, Actor, CSP, GPGPU etc. 
+**Others** - Strong knowledge on design pattern, microservice pattern(Event Sourcing, SAGA, CQRS etc.) , UI programming, MVC architecture for web/desktop/mobile application. Deep understanding of different concurrency models including SIMD, multithreading,functional programming, CSP, GPGPU etc. 
     
 **Developing Environment & Building Tools**  
-    * Emacs on Linux, Mac, Visual Studio + Visual Assist X on Windows  
-    * Using cmake,[Fips](http://floooh.github.io/fips/getstarted.html),[GENie](https://github.com/bkaradzic/GENie) to generate and compile c++ projects cross compilers and different OS platforms including Windows, Linux, OSX, iOS, Android,asm.js/Emscripten(superior web browser solution), PNaCl etc.  
-    * Emacs, Spacemacs,Vim running in Docker container with X11 GUI
+	* Visual Studio Code, Idea IntelliJ, Vim, Emacs  
+    * GNU Make, Maven & Gradle, cmake and [Fips](http://floooh.github.io/fips/getstarted.html),[GENie](https://github.com/bkaradzic/GENie) to generate and compile c++ projects cross compilers and different OS platforms including Windows, Linux, OSX, iOS, Android,asm.js/Emscripten/WebAssembly, PNaCl etc.  
+    * Emacs, Spacemacs,Vim running in Docker container  
     
 **Certification** - CISSP (Certified Information Systems Security Professional)  
 
 
 ### Work Experience  
-**Senior Software Developer at Verizon LTE Inovation Center, Waltham, MA** &nbsp;&nbsp;&nbsp;*July 2017 ~ Current*  
+**Senior Software Engineer in Signify, Burlington, MA**&nbsp;&nbsp;&nbsp;*Feb 2020 ~ Current*  
+* Design and develop cloud-based microservices for customer, admin, iot devices and cross team services to perform authentication and authorization as well as identity management  
+* Migrating CI/CD pipeline from aws ecs to eks, enhance pipeline to support zero downtime fast deployment for services and DB in k8s/istio cluster  
+
+**Senior Software Developer at Verizon LTE Inovation Center, Waltham, MA** &nbsp;&nbsp;&nbsp;*July 2017 ~ Feb 2020*  
 * Design and develop large scale Internet of Thing high throughput backend micro services using Golang && JAVA with cutting edge technology stacks  
 * Design and develop mobile edge computing solution which implements protocol exchanging, message routing and bi-directional streaming to the cloud  
 * Docker/Mesos/Kubernate/Nginx/Kafka/ActiveMQ/RabbitMQ/Apache Camel/Elastic Search/Cassandra/Redis/Splunk/Spring WebFlux/Spring Cloud Gateway/Service Mesh Istio/GraphQL
 
-**Senior Software Engineer and Consultant at Primeon Inc., Boston**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ July 2017*  
+**Senior Software Security Consultant at Primeon Inc., Woburn, MA**&nbsp;&nbsp;&nbsp;&nbsp;*Apr 2012 ~ July 2017*  
 * Performing code review, vulnerability assessment for several top 500 corporations' major framework and server side code as well as Android and iOS mobile client side code (or hybrid client using webview such as Cordova).  
 * Architectural consultancy experience on Federation Single Signon, SOA and Micro-service architecture, RESTful service API design.  
-* Developing in-house tool chain used by team for daily jobs.  
 
 **3D Graphics Developer at Weatherford International, UK**&nbsp;&nbsp;&nbsp;&nbsp;*July 2009 ~ Apr 2012*  
 * Developing and maintaining the 3D module of flagship software 5D, a directional well planning and survey system that uses 3D visualization for
 collision avoidance. Refactoring large code base and adding many new features including multi-3D Opengl scene rendering into multiple Qt viewers; free roaming camera control, 3D Ray picking for interactive operation on 3D viewer.
-
-*Other key contributions:* In the project of drilling relief well for Gulf of Mexico accident, developed a small 3D application to feed real 
-time drilling data into 3D visualization viewer and provided quaternion based free roaming camera control, used by our senior consultant Angus Jamieson
-and Houston Team to complete one of the most challenging task in directional drilling area.  
-                         
-**Software Engineer at Huawei Technologies Co. Ltd., P.R. China**&nbsp;&nbsp;&nbsp;&nbsp;*Aug 2005 ~ Nov 2006*  
-* Joined several national level telecommunication projects, went through the full life cycle of software development, including project planning, requirements analysis, design, coding, debugging, unit testing, system integration testing and release.  
-
 
 ### Personal Side Projects  
 
