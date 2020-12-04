@@ -7,7 +7,7 @@ PHONE: 781-332-2822  EMAIL: xueyouchao@gmail.com  Work Authorization: Greencard 
 --------------------------------------------------------------------------------------
 
 ### Technical Skills
-**Java** - Strong skill and working experience of developing cloud based microservices using popular frameworks including Spring, Spring Webflux, Micronaut, hibernate, JWT, Jackson, Mockito etc. Knowledge of Quarkus, LMax Disruptor.
+**Java** - Strong skill and working experience of developing cloud based microservices using popular frameworks including Spring, Spring Webflux, Micronaut, hibernate, Apache Camel, JWT, Jackson, Mockito etc. Knowledge of Quarkus, LMax Disruptor.
 
 **Golang** - Strong skill and working experience of using golang developing large scale distributed services, deep understanding of CSP concurrency model 
 
@@ -19,7 +19,7 @@ PHONE: 781-332-2822  EMAIL: xueyouchao@gmail.com  Work Authorization: Greencard 
 **C# & .net language** - Strong skill on c# and .net programming, fluent skill of using P/Invoke (or c++/cli) mixing with c++ native
 code. Familiar with c# async and multithreading programming.
 
-**Cloud** - Strong skill and working experience on docker, kubernetes, aws cloud, istio service mesh, CI/CD framework including jenkins, spinnaker.
+**Cloud** - Strong skill and working experience on docker, kubernetes, istio service mesh, Mesos, S3, Cloudwatch, ECS Fargate, lambda, Aurora, DynamoDB, CI/CD framework including jenkins, spinnaker etc.
 
 **Others** - Strong knowledge on design pattern, microservice pattern(Event Sourcing, SAGA, CQRS etc.) , UI programming, MVC architecture for web/desktop/mobile application. Deep understanding of different concurrency models including SIMD, multithreading,functional programming, CSP, GPGPU etc. 
     
